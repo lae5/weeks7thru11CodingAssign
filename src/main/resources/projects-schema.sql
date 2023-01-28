@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS project;
 CREATE TABLE project (
 project_id int AUTO_INCREMENT NOT NULL,
 project_name varchar(128) NOT NULL,
-estimate_hours decimal(7,2),
+estimated_hours decimal(7,2),
 actual_hours decimal (7,2),
 difficulty int,
 notes TEXT,
